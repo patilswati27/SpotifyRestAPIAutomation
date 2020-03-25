@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4796" started-at="2020-03-25T13:19:15Z" finished-at="2020-03-25T13:19:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4796" started-at="2020-03-25T13:19:15Z" finished-at="2020-03-25T13:19:20Z">
+      <class name="com.bridgelabz.SpotifyRestApi">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.SpotifyRestApi@b62fe6d]" name="setUp" is-config="true" duration-ms="27" started-at="2020-03-25T13:19:15Z" finished-at="2020-03-25T13:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="GivenToken_GetUserProfileTest()[pri:0, instance:com.bridgelabz.SpotifyRestApi@b62fe6d]" name="GivenToken_GetUserProfileTest" duration-ms="3714" started-at="2020-03-25T13:19:15Z" finished-at="2020-03-25T13:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GivenToken_GetUserProfileTest -->
+        <test-method status="PASS" signature="spotify_RestAssured_Test()[pri:0, instance:com.bridgelabz.SpotifyRestApi@b62fe6d]" name="spotify_RestAssured_Test" duration-ms="487" started-at="2020-03-25T13:19:19Z" finished-at="2020-03-25T13:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spotify_RestAssured_Test -->
+        <test-method status="PASS" signature="spotify_RestAssured_returnTotalPlaylist_Test()[pri:0, instance:com.bridgelabz.SpotifyRestApi@b62fe6d]" name="spotify_RestAssured_returnTotalPlaylist_Test" duration-ms="520" started-at="2020-03-25T13:19:19Z" finished-at="2020-03-25T13:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spotify_RestAssured_returnTotalPlaylist_Test -->
+      </class> <!-- com.bridgelabz.SpotifyRestApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
