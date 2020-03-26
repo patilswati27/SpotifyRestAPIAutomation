@@ -5,9 +5,12 @@
     <classes>
       <class name="com.bridgelabz.SpotifyRestApi">
         <methods>
-          <include name="GivenToken_GetUserProfileTest"/>
+          <include name="GivenToken_GetUserProfile"/>
+          <include name="spotify_RestAssured_returnCurrentPlaylistId"/>
+          <include name="spotify_RestAssured_returnTotalTracklist"/>
           <include name="spotify_RestAssured_Test"/>
           <include name="setUp"/>
+          <include name="spotify_RestAssured_returnTotalPlaylist"/>
         </methods>
       </class> <!-- com.bridgelabz.SpotifyRestApi -->
     </classes>

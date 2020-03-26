@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4796" started-at="2020-03-25T13:19:15Z" finished-at="2020-03-25T13:19:20Z">
+  <suite name="Default suite" duration-ms="7919" started-at="2020-03-26T17:46:01Z" finished-at="2020-03-26T17:46:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4796" started-at="2020-03-25T13:19:15Z" finished-at="2020-03-25T13:19:20Z">
+    <test name="Default test" duration-ms="7919" started-at="2020-03-26T17:46:01Z" finished-at="2020-03-26T17:46:09Z">
       <class name="com.bridgelabz.SpotifyRestApi">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.SpotifyRestApi@b62fe6d]" name="setUp" is-config="true" duration-ms="27" started-at="2020-03-25T13:19:15Z" finished-at="2020-03-25T13:19:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.SpotifyRestApi@13acb0d1]" name="setUp" is-config="true" duration-ms="18" started-at="2020-03-26T17:46:01Z" finished-at="2020-03-26T17:46:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="GivenToken_GetUserProfileTest()[pri:0, instance:com.bridgelabz.SpotifyRestApi@b62fe6d]" name="GivenToken_GetUserProfileTest" duration-ms="3714" started-at="2020-03-25T13:19:15Z" finished-at="2020-03-25T13:19:19Z">
+        <test-method status="PASS" signature="GivenToken_GetUserProfile()[pri:0, instance:com.bridgelabz.SpotifyRestApi@13acb0d1]" name="GivenToken_GetUserProfile" duration-ms="3639" started-at="2020-03-26T17:46:01Z" finished-at="2020-03-26T17:46:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GivenToken_GetUserProfileTest -->
-        <test-method status="PASS" signature="spotify_RestAssured_Test()[pri:0, instance:com.bridgelabz.SpotifyRestApi@b62fe6d]" name="spotify_RestAssured_Test" duration-ms="487" started-at="2020-03-25T13:19:19Z" finished-at="2020-03-25T13:19:19Z">
+        </test-method> <!-- GivenToken_GetUserProfile -->
+        <test-method status="PASS" signature="givenTrackId_shoudDeleteThisTrack()[pri:0, instance:com.bridgelabz.SpotifyRestApi@13acb0d1]" name="givenTrackId_shoudDeleteThisTrack" duration-ms="741" started-at="2020-03-26T17:46:05Z" finished-at="2020-03-26T17:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenTrackId_shoudDeleteThisTrack -->
+        <test-method status="PASS" signature="spotify_RestAssured_CreatePlaylist()[pri:0, instance:com.bridgelabz.SpotifyRestApi@13acb0d1]" name="spotify_RestAssured_CreatePlaylist" duration-ms="743" started-at="2020-03-26T17:46:06Z" finished-at="2020-03-26T17:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spotify_RestAssured_CreatePlaylist -->
+        <test-method status="PASS" signature="spotify_RestAssured_Test()[pri:0, instance:com.bridgelabz.SpotifyRestApi@13acb0d1]" name="spotify_RestAssured_Test" duration-ms="530" started-at="2020-03-26T17:46:07Z" finished-at="2020-03-26T17:46:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spotify_RestAssured_Test -->
-        <test-method status="PASS" signature="spotify_RestAssured_returnTotalPlaylist_Test()[pri:0, instance:com.bridgelabz.SpotifyRestApi@b62fe6d]" name="spotify_RestAssured_returnTotalPlaylist_Test" duration-ms="520" started-at="2020-03-25T13:19:19Z" finished-at="2020-03-25T13:19:20Z">
+        <test-method status="PASS" signature="spotify_RestAssured_returnCurrentPlaylistId()[pri:0, instance:com.bridgelabz.SpotifyRestApi@13acb0d1]" name="spotify_RestAssured_returnCurrentPlaylistId" duration-ms="576" started-at="2020-03-26T17:46:07Z" finished-at="2020-03-26T17:46:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- spotify_RestAssured_returnTotalPlaylist_Test -->
+        </test-method> <!-- spotify_RestAssured_returnCurrentPlaylistId -->
+        <test-method status="PASS" signature="spotify_RestAssured_returnTotalPlaylist()[pri:0, instance:com.bridgelabz.SpotifyRestApi@13acb0d1]" name="spotify_RestAssured_returnTotalPlaylist" duration-ms="552" started-at="2020-03-26T17:46:08Z" finished-at="2020-03-26T17:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spotify_RestAssured_returnTotalPlaylist -->
+        <test-method status="PASS" signature="spotify_RestAssured_returnTotalTracklist()[pri:0, instance:com.bridgelabz.SpotifyRestApi@13acb0d1]" name="spotify_RestAssured_returnTotalTracklist" duration-ms="560" started-at="2020-03-26T17:46:08Z" finished-at="2020-03-26T17:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spotify_RestAssured_returnTotalTracklist -->
+        <test-method status="PASS" signature="spotify_RestAssured_updatePlaylist()[pri:0, instance:com.bridgelabz.SpotifyRestApi@13acb0d1]" name="spotify_RestAssured_updatePlaylist" duration-ms="495" started-at="2020-03-26T17:46:09Z" finished-at="2020-03-26T17:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spotify_RestAssured_updatePlaylist -->
       </class> <!-- com.bridgelabz.SpotifyRestApi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
